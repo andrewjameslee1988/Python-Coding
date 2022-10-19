@@ -15,3 +15,5 @@ final_amount = round(bill_per_person, 2)
 #Create a message saying how much money each person will pay
 #Use an fString to pull the integer amount into the message as a string
 print(f"Each person will have to pay ${final_amount}")
+#Print exit message, add input for exit
+exit_message = input("Enter any key to exit") + exit(input)

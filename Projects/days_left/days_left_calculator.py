@@ -13,3 +13,5 @@ months_left = years_left*12
 #Print message
 message= f"You have {days_left} days, {weeks_left} weeks, {months_left} months left."
 print(message)
+#print exit message, add input for exit
+exit_message = input("Enter any key to exit") + exit(input)

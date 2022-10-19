@@ -9,3 +9,5 @@ food_name = input("What's your favorite food or drink?\n")
 kicker = input("Name a random object.\n")
 #Combine the name of their city, food, and object and show them their band name.
 print("Your band name could be " + city + " " + food_name + " " + kicker)
+#print exit message, add input for exit
+exit_message = input("Enter any key to exit") + exit(input)
